@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Modal from '@material-ui/core/Modal';
 
-const styles = (theme) => ({
+const styles = () => ({
   progress: {
     margin: 'auto',
   },

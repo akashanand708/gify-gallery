@@ -1,0 +1,47 @@
+@import "./TrendingGif/trendingGif.scss";
+
+.trendingGifContainer {
+  height: inherit;
+  background-color: black;
+  position: relative;
+  .trendingGifsContent {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    .trendingGifs{
+      height: inherit;
+      overflow-y: auto;
+    }
+    .masonry{
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: -8px;
+      width: 100%;
+    }
+    .emptyList{
+      color: white;
+      margin: auto;
+    }
+    .errorMessage{
+      color: red;
+      margin: auto;
+      background-color: white;
+    }
+  }
+  .author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 84px;
+    font-size: 12px;
+    @media only screen and (min-width: 700px) {
+      flex-direction: row;
+    }
+    .authorTitle {
+      font-size: 14px;
+      font-weight: 600;
+      margin-right: 10px;
+    }
+  }
+}

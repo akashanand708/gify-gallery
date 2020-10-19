@@ -1,11 +1,9 @@
 
 import { combineReducers } from 'redux';
-import { programReducer } from './program-reducer';
-import { showToastReducer } from './show-toast-reducer'
+import { trendingGifReducer } from './trending-gif-reducer';
 
 const rootReducer = combineReducers({
-  programReducer,
-  showToastReducer
+  trendingGifReducer,
 });
 
 export {

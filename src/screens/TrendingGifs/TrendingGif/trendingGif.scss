@@ -1,0 +1,56 @@
+@mixin titleValue {
+  font-size: 14px;
+  color: darkgrey;
+}
+
+.masonry-brick-slideshow{
+  width: 100% !important;
+  height: 100% !important;
+  .masonry-img-slideshow{
+    object-fit: contain;
+    height: 96%;
+    @media only screen and (max-width: 900px) {
+      width: 100%;
+      height: unset;
+     }
+  }
+}
+
+.masonry-brick {
+  flex: auto;
+  height: 250px;
+  min-width: 150px;
+  margin: 0 8px 8px 0;
+  position: relative;
+  display: flex;
+
+  .imageLoadingCircularProgress{
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+  }
+  .masonry-img {
+    object-fit: cover;
+    cursor: pointer;
+    @media only screen and (max-width: 900px) {
+      width: 100%;
+      height: inherit;
+    }
+  }
+  img {
+    vertical-align: middle;
+    opacity: 0;
+    margin: auto;
+  }
+  .imageLoading{
+
+  }
+  .imageLoaded{
+    opacity:1;
+    transition: opacity .2s ease-in;
+  }
+  .errorInLoading{
+    color: white;
+    margin: auto;
+  }
+}
