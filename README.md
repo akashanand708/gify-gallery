@@ -1,4 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployed application link:
+https://gifygallery-akashanand110390.netlify.app/
+
+## Scrrenshots:
+<img width="1679" alt="Screenshot 2020-10-19 at 3 21 05 PM" src="https://user-images.githubusercontent.com/6744343/96429946-29d45700-121f-11eb-93da-05f4048c1988.png">
+<img width="1680" alt="Screenshot 2020-10-19 at 3 21 10 PM" src="https://user-images.githubusercontent.com/6744343/96429979-3193fb80-121f-11eb-8adc-e30b2a0db9c2.png">
+<img width="529" alt="Screenshot 2020-10-19 at 3 22 18 PM" src="https://user-images.githubusercontent.com/6744343/96429990-36f14600-121f-11eb-918e-065bd7f28a79.png">
+<img width="527" alt="Screenshot 2020-10-19 at 3 22 29 PM" src="https://user-images.githubusercontent.com/6744343/96429997-38bb0980-121f-11eb-8afa-80adab62ffdc.png">
+
+
+
 ## Setting up environment variable
 Copy `.env-example` file at the same location (Root of the project) and name it like `.env`
 and set the REACT_APP_API_KEY.
